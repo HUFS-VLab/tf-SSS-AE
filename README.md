@@ -23,7 +23,7 @@ A Surface-Mounted Device (SMD) assembly machine continuously assembles various p
 
 ### LSMD
 ```
-Large-scale SMD dataset
+We plan to release the large-scale SMD (LSMD) dataset with additional information in follow-up study.
 ```
 
 #### Audio examples
