@@ -1,0 +1,14 @@
+[
+    {
+        "wav": "LSMD/ST-3708/001",
+        "sr": 192000,
+        "item": "ST-3708",
+        "type": "NORMAL"
+    },
+    {
+        "wav": "LSMD/ST-3708/002",
+        "sr": 192000,
+        "item": "ST-3708",
+        "type": "NORMAL"
+    }
+]

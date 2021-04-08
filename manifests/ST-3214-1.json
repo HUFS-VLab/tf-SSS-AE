@@ -1,0 +1,14 @@
+[
+    {
+        "wav": "LSMD/ST-3214-1/001",
+        "sr": 192000,
+        "item": "ST-3214-1",
+        "type": "ANORMAL"
+    },
+    {
+        "wav": "LSMD/ST-3214-1/002",
+        "sr": 192000,
+        "item": "ST-3214-1",
+        "type": "ANORMAL"
+    }
+]

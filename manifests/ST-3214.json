@@ -1,0 +1,14 @@
+[
+    {
+        "wav": "LSMD/ST-3214/001",
+        "sr": 192000,
+        "item": "ST-3214",
+        "type": "NORMAL"
+    },
+    {
+        "wav": "LSMD/ST-3214/002",
+        "sr": 192000,
+        "item": "ST-3214",
+        "type": "NORMAL"
+    }
+]

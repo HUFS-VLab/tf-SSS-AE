@@ -1,0 +1,14 @@
+[
+    {
+        "wav": "LSMD/GT-4118-2/001",
+        "sr": 96000,
+        "item": "GT-4118-2",
+        "type": "ANORMAL"
+    },
+    {
+        "wav": "LSMD/GT-4118-2/002",
+        "sr": 96000,
+        "item": "GT-4118-2",
+        "type": "ANORMAL"
+    }
+]
