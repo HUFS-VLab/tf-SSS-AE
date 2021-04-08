@@ -12,7 +12,7 @@ A Surface-Mounted Device (SMD) assembly machine continuously assembles various p
 
 ## Table of contents 
 * [1. Dataset](#1-dataset)
-    + [LSMD](#smd)
+    + [LSMD](#lsmd)
     + [Setting](#setting)
 * [2. Dependency](#2-dependency)
 * [3. Training and Evaluation](#3-training-and-evaluation)
