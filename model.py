@@ -129,9 +129,10 @@ class SSSAE:
                 x = tf.concat([x_forward, x_backward], axis=-1)
             else:
                 x = x_forward
-                
-            x, attention = multihead_attention(x, x, x, key_masks=None, num_heads=self.num_heads, normalize=True, scope=f"multihead_attention_{i}")
-            #self.attentions.append(attention)
+            
+            if j != ((n_layers//2) -1):
+                x, attention = multihead_attention(x, x, x, key_masks=None, num_heads=self.num_heads, normalize=True, scope=f"multihead_attention_{i}")
+                #self.attentions.append(attention)
 
         outputs = x
         self.laten_vector = tf.concat(last_h_states, axis=-1) # laten vectors
