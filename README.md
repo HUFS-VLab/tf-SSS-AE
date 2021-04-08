@@ -103,3 +103,29 @@ ST-3214.json
     }
 ]
 ```
+
+## 2. Dependency
+```
+numpy==1.16.4
+matplotlib==3.2.1
+librosa==0.7.0
+scipy==1.3.1
+tensorflow==1.14 (Available= 1.10 <= x <=1.14)
+```
+
+## 3. Training and Evaluation
+
+### Run train
+
+```
+cd script/
+
+./run_ssae_trainer.sh
+```
+
+### Run test
+```
+cd script/
+
+./run_ssae_test.sh
+```
