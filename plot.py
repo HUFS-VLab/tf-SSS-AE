@@ -17,6 +17,8 @@ def save_loss(loss_list, model_path):
     plt.close()
     
     
-#def compare_loss(loss_dict, model_path, value, save_figure_path, weight): 
+def compare_loss(loss_dict, model_path, value, save_figure_path, weight):
+    pass
 
-#def loss_boxplot(loss_dict, model_path, value, save_figure_path, weight):
+def loss_boxplot(loss_dict, model_path, value, save_figure_path, weight):
+    pass
