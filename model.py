@@ -233,7 +233,6 @@ class SSSAE:
         self.sess.run(testData_loader.iterator.initializer)
         
         loss_list = []
-        frame_loss_list = []
         laten_vector_list = []
         n_normal = 0
         n_abnormal = 0
@@ -243,7 +242,7 @@ class SSSAE:
             wav_name = os.path.splitext(os.path.basename(wav_path))[0]
             data = np.load(wav_path)
             batch_inputs = np.expand_dims(data, axis=0)
-            loss, frame_loss, laten_vector = self.sess.run([self.loss, self.frame_loss, self.laten_vector], feed_dict={self.inputs:batch_inputs})
+            loss, laten_vector = self.sess.run([self.loss, self.laten_vector], feed_dict={self.inputs:batch_inputs})
             #snr = - 20 * np.log10(loss)
             
             if threshold != None:
